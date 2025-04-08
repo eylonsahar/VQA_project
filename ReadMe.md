@@ -41,9 +41,9 @@ Link to the paper where the architecture was introduced: [Stacked Attention Netw
 
 Below is an example of how the Stacked Attention Network (SAN) highlights relevant regions in an image based on the question:
 
-![img_4.png](img_4.png)![img_6.png](img_6.png)
+![img_4.png](imgs/img_4.png)![img_6.png](imgs/img_6.png)
 
-![img_8.png](img_8.png)
+![img_8.png](imgs/img_8.png)
 
 ---
 ## Dataset
@@ -65,14 +65,15 @@ The dataset is available on Kaggle: [DAQUAR Dataset](https://www.kaggle.com/data
 | **Color-related Questions** | 25.28% (136/538)        | 26.39% (142/538)        | 27.51% (148/538)   |
 | **Open-ended Questions**    | 22.64% (985/4351)       | 21.40% (931/4351)       | 20.96% (912/4351)  |
 | **Overall Accuracy**        | 24.47% (1388/5673)      | 23.60% (1339/5673)      | 23.66% (1342/5673) |
-![img_9.png](img_9.png)
+
+![img_9.png](imgs/img_9.png)
 
 The attention model shows a slight improvement over the base model, but not consistently across all categories.
 This result contrasts with the findings in the referenced paper, which demonstrated a significant advantage for the attention model.
 
 Additionally, increasing the number of attention layers does not necessarily enhance performance.
 Analysis of the attention layers suggests that this may be due to the model's attention becoming less focused as more layers are added.
-<br />**Example**<br />![img_10.png](img_10.png)
+<br />**Example**<br />![img_10.png](imgs/img_10.png)
 
 
 ---
