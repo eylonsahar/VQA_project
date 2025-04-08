@@ -23,7 +23,7 @@ which tries to enhance the model's reasoning ability by utilizing multiple atten
 
 * Combines image and question representations via fully connected layers.
 
-![img_2.png](img_2.png)
+![img_2.png](imgs/img_2.png)
 <br />(Model architecture, from the paper "VQA: Visual Question Answering")
 
 Link to the paper where the architecture was introduced: [VQA: Visual Question Answering](https://arxiv.org/pdf/1505.00468)
